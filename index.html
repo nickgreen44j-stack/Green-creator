@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Green Creator Publicidade</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #07110b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 25px 15px;
+  text-align: center;
+  background: #102719;
+  border-bottom: 2px solid #00cc66;
+}
+
+header h1 {
+  color: #00e676;
+  font-size: 27px;
+}
+
+header p {
+  margin-top: 8px;
+  color: #ccc;
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #00e676;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.hero {
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.hero h2 {
+  font-size: 35px;
+  color: #00e676;
+}
+
+.hero p {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+button {
+  background: #00cc66;
+  color: black;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.services {
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #00e676;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #14251a;
+  margin: 15px 0;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #176b3b;
+}
+
+.contact {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.contact h2 {
+  color: #00e676;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  background: #102719;
+  padding: 25px;
+  color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>GREEN CREATOR</h1>
+<p>PUBLICIDADE & TECNOLOGIA</p>
+</header>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+<h2>Transforme ideias em oportunidades.</h2>
+<p>Sua ideia. Nosso design. Seu impacto.</p>
+<button onclick="document.getElementById('servicos').scrollIntoView()">
+Conhecer serviços
+</button>
+</section>
+
+<section class="services" id="servicos">
+<h2>NOSSOS SERVIÇOS</h2>
+
+<div class="card">
+<h3>🎨 Design Gráfico</h3>
+<p>Logotipos, cartazes e panfletos.</p>
+</div>
+
+<div class="card">
+<h3>💻 Criação de Sites</h3>
+<p>Sites profissionais para empresas.</p>
+</div>
+
+<div class="card">
+<h3>📱 Marketing Digital</h3>
+<p>Publicidade nas redes sociais.</p>
+</div>
+
+<div class="card">
+<h3>🎬 Edição de Vídeos</h3>
+<p>Vídeos criativos e profissionais.</p>
+</div>
+</section>
+
+<section class="contact" id="contacto"><section class="contact" id="contacto">
+
+<h2>FALE CONNOSCO</h2>
+
+<p>Estamos disponíveis para o teu projeto!</p>
+
+<br>
+
+<h3>📧 Email</h3>
+<p>greencreatororg@gmail.com</p>
+
+<br>
+
+<h3>📞 Telefones</h3>
+
+<p><a href="tel:877303559">877 303 559</a></p>
+
+<p><a href="tel:851837953">851 837 953</a></p>
+
+<p><a href="tel:875068036">875 068 036</a></p>
+
+</section>
+<h2>FALE CONNOSCO</h2>
+<p>greencreatororg@gmail.com</p>
+</section>
+
+<footer>
+<p>© 2026 GREEN CREATOR PUBLICIDADE</p>
+<p>Sua ideia. Nosso design. Seu impacto.</p>
+</footer>
+
+</body><!DOCTYPE html> <html lang="pt"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Green Creator Publicidade</title> <style> *{box-sizing:border-box} body{ margin:0; font-family:Arial,sans-serif; background:#07120b; color:white; } header{ background:#0b2815; padding:25px 15px; text-align:center; border-bottom:2px solid #19d65a; } header h1{color:#24e66b} header p{color:#c4e8ce} nav{ display:flex; justify-content:center; flex-wrap:wrap; background:#102619; padding:12px; gap:18px; } nav a{color:white;text-decoration:none;font-weight:bold} .hero{ text-align:center; padding:65px 20px; background:linear-gradient(135deg,#103d20,#07120b); } .hero h2{font-size:32px;color:#31ec72} button{ background:#20d65c; color:#001b09; border:none; padding:12px 20px; border-radius:8px; font-weight:bold; cursor:pointer; } section{padding:35px 18px} h2{text-align:center;color:#29e66d} .cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:15px; } .card{ background:#102719; padding:18px; border-radius:12px; text-align:center; border:1px solid #1b6033; } .price{color:#31ed72;font-weight:bold;font-size:19px} .portfolio{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; } .portfolio div{ background:#153820; padding:35px 10px; text-align:center; border-radius:10px; } form{ max-width:450px; margin:auto; display:grid; gap:12px; } input,textarea,select{ padding:13px; border-radius:7px; border:none; width:100%; } footer{ text-align:center; padding:25px; background:#061009; color:#a9cbb3; } </style> </head> <body> <header> <h1>GREEN CREATOR</h1> <p>PUBLICIDADE</p> <p>Sua ideia. Nosso design. Seu impacto.</p> </header> <nav> <a href="#sobre">Sobre</a> <a href="#servicos">Preços</a> <a href="#portfolio">Portefólio</a> <a href="#avaliacoes">Avaliações</a> <a href="#contactos">Contactos</a> </nav> <div class="hero"> <h2>Transformamos ideias em oportunidades!</h2> <p>Design profissional, criatividade e publicidade para o teu negócio.</p> <a href="#contactos"><button>Solicitar serviço</button></a> </div> <section id="sobre"> <h2>Sobre Nós</h2> <p>A GREEN CREATOR PUBLICIDADE é uma agência criativa especializada em design gráfico, publicidade, edição de vídeos e identidade visual. Ajudamos empresas, artistas e empreendedores a apresentar as suas ideias ao mundo.</p> </section> <section id="servicos"> <h2>💰 Nossos Preços</h2> <div class="cards"> <div class="card">Panfleto simples<p class="price">20 MT</p></div> <div class="card">Panfleto profissional<p class="price">50 MT</p></div> <div class="card">Cartazes<p class="price">30 MT</p></div> <div class="card">Design redes sociais<p class="price">40 MT</p></div> <div class="card">Logotipos<p class="price">100 MT</p></div> <div class="card">Capas musicais<p class="price">50 MT</p></div> <div class="card">Publicidade empresarial<p class="price">150 MT</p></div> <div class="card">Banners<p class="price">100 MT</p></div> <div class="card">Edição de vídeos<p class="price">200 MT</p></div> <div class="card">Design personalizado<p class="price">Até 300 MT</p></div> </div> </section> <section id="portfolio"> <h2>🖼️ Nosso Portefólio</h2> <div class="portfolio"> <div>🎨 Panfletos</div> <div>💚 Logotipos</div> <div>🎵 Capas musicais</div> <div>📢 Publicidade</div> <div>🎬 Edição de vídeos</div> <div>🏢 Identidade visual</div> </div> <p style="text-align:center">Os nossos trabalhos serão apresentados nesta galeria.</p> </section> <section id="avaliacoes"> <h2>⭐ Avaliações dos Clientes</h2> <form id="reviewForm"> <input id="nome" placeholder="Teu nome" required> <select id="estrelas"> <option value="5">⭐⭐⭐⭐⭐</option> <option value="4">⭐⭐⭐⭐</option> <option value="3">⭐⭐⭐</option> <option value="2">⭐⭐</option> <option value="1">⭐</option> </select> <textarea id="comentario" placeholder="Escreve a tua avaliação..." required></textarea> <button type="submit">Enviar avaliação</button> </form> <div id="reviews"></div> </section> <section id="contactos"> <h2>📞 Fale Connosco</h2> <p style="text-align:center"> 📧 nellnellnumark@gmail.com<br> 📧 greencreatororg@gmail.com<br> 📧 nellbussiness258@gmail.com </p> <form id="contactForm"> <input id="cliente" placeholder="Teu nome" required> <input id="email" type="email" placeholder="Teu email" required> <select id="servico"> <option>Escolher serviço</option> <option>Panfleto</option> <option>Logotipo</option> <option>Publicidade</option> <option>Design</option> <option>Edição de vídeo</option> </select> <textarea id="mensagem" placeholder="Descreve o que precisas..." required></textarea> <button type="submit">Enviar pedido por email</button> </form> </section> <footer> <h3>GREEN CREATOR PUBLICIDADE</h3> <p>Transforme ideias em oportunidades.</p> <p>© 2026 Todos os direitos reservados.</p> </footer> <script> document.getElementById("reviewForm").addEventListener("submit",function(e){ e.preventDefault(); let nome=document.getElementById("nome").value; let estrelas=document.getElementById("estrelas").value; let comentario=document.getElementById("comentario").value; let div=document.createElement("div"); div.className="card"; div.innerHTML="<h3>"+nome+"</h3><p>"+ "⭐".repeat(Number(estrelas))+"</p><p></p>"; div.querySelectorAll("p")[1].textContent=comentario; document.getElementById("reviews").appendChild(div); this.reset(); }); document.getElementById("contactForm").addEventListener("submit",function(e){ e.preventDefault(); let nome=document.getElementById("cliente").value; let email=document.getElementById("email").value; let servico=document.getElementById("servico").value; let mensagem=document.getElementById("mensagem").value; let assunto=encodeURIComponent("Pedido de serviço - Green Creator"); let corpo=encodeURIComponent( "Nome: "+nome+ "\nEmail: "+email+ "\nServiço: "+servico+ "\nMensagem: "+mensagem ); window.location.href="mailto:nellnellnumark@gmail.com?subject="+assunto+"&body="+corpo; }); </script> </body> </html> 
+</html><section id="pagamentos"> <style> #pagamentos{ background:#07120b; color:white; padding:25px 15px; font-family:Arial; } #pagamentos .box{ max-width:500px; margin:auto; background:#102719; padding:20px; border-radius:15px; border:1px solid #20d65c; } #pagamentos h2{text-align:center;color:#28e66d} #pagamentos input,#pagamentos textarea{ width:100%; padding:13px; margin:8px 0; border:0; border-radius:7px; box-sizing:border-box; } #pagamentos button{ background:#20d65c; border:0; padding:12px; border-radius:7px; font-weight:bold; cursor:pointer; } #pagamentos .numero{ background:#193b25; padding:13px; margin:10px 0; border-radius:8px; display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; } #pagamentos label{display:block;margin-top:12px} </style> <div class="box"> <h2>💳 PAGAMENTOS</h2> <p><b>Titular:</b> Laura Vicente Mauelele</p> <button type="button" onclick="copiarGC('Laura Vicente Mauelele')"> 📋 COPIAR TITULAR </button> <div class="numero"> <span>M-Pesa: <b>877303559</b></span> <button type="button" onclick="copiarGC('877303559')">COPIAR</button> </div> <div class="numero"> <span>e-Mola: <b>851837953</b></span> <button type="button" onclick="copiarGC('851837953')">COPIAR</button> </div> <h2>🧾 CONFIRMAR PAGAMENTO</h2> <form id="formPagamento"> <label>Nome completo</label> <input type="text" id="gcNome" required> <label>Email</label> <input type="email" id="gcEmail" required> <label>Serviço comprado</label> <input type="text" id="gcServico" required> <label>Valor pago (MT)</label> <input type="number" id="gcValor" min="1" max="300" required> <label>Método de pagamento</label> <select id="gcMetodo" required> <option value="">Selecionar</option> <option>M-Pesa</option> <option>e-Mola</option> <option>Transferência bancária</option> <option>Cartão / PIX</option> </select> <label>ID da transação</label> <input type="text" id="gcID" required> <label>Mensagem de confirmação</label> <textarea id="gcMensagem" rows="4" required></textarea> <label>Fotografia do comprovativo</label> <input type="file" id="gcImagem" accept="image/*"> <button type="submit" style="width:100%"> 📩 ENVIAR COMPROVATIVO </button> </form> <p id="gcEstado" aria-live="polite"></p> </div> </section> <script> function copiarGC(texto){ if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(texto) .then(()=>alert("Copiado com sucesso!")) .catch(()=>alert("Não foi possível copiar.")); }else{ alert("Seleciona e copia: "+texto); } } document.getElementById("formPagamento") .addEventListener("submit",function(e){ e.preventDefault(); const nome=document.getElementById("gcNome").value; const email=document.getElementById("gcEmail").value; const servico=document.getElementById("gcServico").value; const valor=document.getElementById("gcValor").value; const metodo=document.getElementById("gcMetodo").value; const id=document.getElementById("gcID").value; const mensagem=document.getElementById("gcMensagem").value; const imagem=document.getElementById("gcImagem").files[0]; let assunto=encodeURIComponent("Comprovativo - Green Creator"); let corpo=encodeURIComponent( "Nome: "+nome+ "\nEmail: "+email+ "\nServiço: "+servico+ "\nValor: "+valor+" MT"+ "\nMétodo: "+metodo+ "\nID da transação: "+id+ "\nMensagem: "+mensagem+ "\n\nO comprovativo deve ser anexado manualmente ao email." ); document.getElementById("gcEstado").textContent= "A abrir o email para enviar a confirmação. Anexa a fotografia do comprovativo."; window.location.href= "mailto:nellnellnumark@gmail.com?subject="+assunto+"&body="+corpo; }); </script> <section id="personalizar"> <style> #personalizar{ background:#102719; color:white; padding:20px; border-radius:12px; margin:20px; font-family:Arial; } #personalizar select{ width:100%; padding:12px; margin:8px 0; border-radius:8px; } #personalizar button{ padding:12px; border:0; border-radius:8px; margin:5px; cursor:pointer; } .cores{ display:flex; flex-wrap:wrap; gap:10px; } .cor{ width:42px; height:42px; border:2px solid white!important; } </style> <h2>🌍 Idioma e Personalização</h2> <label>Escolher idioma</label> <select id="gcIdioma"> <option value="pt">Português</option> <option value="en">English</option> <option value="fr">Français</option> </select> <h3>🎨 Escolher cor do site</h3> <div class="cores"> <button class="cor" style="background:#07120b" data-cor="#07120b"></button> <button class="cor" style="background:#ffffff" data-cor="#ffffff"></button> <button class="cor" style="background:#063bff" data-cor="#063bff"></button> <button class="cor" style="background:#d90000" data-cor="#d90000"></button> <button class="cor" style="background:#7500bb" data-cor="#7500bb"></button> <button class="cor" style="background:#c9a227" data-cor="#c9a227"></button> <button class="cor" style="background:#087c36" data-cor="#087c36"></button> </div> <p id="gcPersonalizado">Personalização aplicada!</p> </section> <script> const idioma=document.getElementById("gcIdioma"); const traducoes={ pt:"Personalização aplicada!", en:"Customization applied!", fr:"Personnalisation appliquée!" }; idioma.value=localStorage.getItem("gcIdioma")||"pt"; idioma.addEventListener("change",function(){ localStorage.setItem("gcIdioma",this.value); document.getElementById("gcPersonalizado").textContent= traducoes[this.value]; }); const cores=document.querySelectorAll("#personalizar .cor"); cores.forEach(botao=>{ botao.addEventListener("click",function(){ const cor=this.dataset.cor; document.body.style.backgroundColor=cor; localStorage.setItem("gcCor",cor); document.getElementById("gcPersonalizado").textContent= "Nova cor aplicada!"; }); }); const corGuardada=localStorage.getItem("gcCor"); if(corGuardada){ document.body.style.backgroundColor=corGuardada; } </script> <style> /* LOGO ANIMADO */ .gc-logo{ text-align:center; font-family:Arial,sans-serif; font-size:30px; font-weight:900; color:#20e66a; animation:brilho 2s infinite alternate; } .gc-folha{ display:inline-block; font-size:38px; animation:folha 3s ease-in-out infinite; transform-origin:bottom center; } @keyframes folha{ 0%,100%{transform:rotate(-12deg) scale(1)} 50%{transform:rotate(12deg) scale(1.2)} } @keyframes brilho{ from{text-shadow:0 0 5px #20e66a} to{text-shadow:0 0 20px #20e66a} } /* FOLHAS FLUTUANTES */ .gc-folhas{ position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:999; } .gc-folhas span{ position:absolute; bottom:-50px; font-size:25px; animation:subir 9s linear infinite; opacity:.35; } .gc-folhas span:nth-child(1){left:10%;animation-delay:0s} .gc-folhas span:nth-child(2){left:30%;animation-delay:3s} .gc-folhas span:nth-child(3){left:55%;animation-delay:1s} .gc-folhas span:nth-child(4){left:80%;animation-delay:5s} .gc-folhas span:nth-child(5){left:95%;animation-delay:2s} @keyframes subir{ 0%{transform:translateY(0) rotate(0deg);opacity:0} 20%{opacity:.4} 100%{transform:translateY(-110vh) rotate(360deg);opacity:0} } </style> <div class="gc-folhas"> <span>🍃</span> <span>🌿</span> <span>🍃</span> <span>🌿</span> <span>🍃</span> </div> <script> const logoGC=document.createElement("div"); logoGC.className="gc-logo"; logoGC.innerHTML='GREEN CREATOR <span class="gc-folha">🌿</span>'; document.querySelector("header").prepend(logoGC); </script> <div style="text-align:center;padding:15px"> <button onclick="testarSomGC()" style="background:#16c75a;color:white;padding:14px;border:0;border-radius:10px"> 🔔 TESTAR TOQUE GREEN CREATOR </button> </div> <script> let audioGC; function testarSomGC(){ const AudioContext=window.AudioContext||window.webkitAudioContext; if(!AudioContext)return; audioGC=audioGC||new AudioContext(); if(audioGC.state==="suspended")audioGC.resume(); const notas=[523.25,659.25,783.99]; notas.forEach((frequencia,i)=>{ const osc=audioGC.createOscillator(); const ganho=audioGC.createGain(); osc.type="sine"; osc.frequency.value=frequencia; ganho.gain.setValueAtTime(0.001,audioGC.currentTime+i*0.18); ganho.gain.exponentialRampToValueAtTime(0.2,audioGC.currentTime+i*0.18+0.04); ganho.gain.exponentialRampToValueAtTime(0.001,audioGC.currentTime+i*0.18+0.25); osc.connect(ganho); ganho.connect(audioGC.destination); osc.start(audioGC.currentTime+i*0.18); osc.stop(audioGC.currentTime+i*0.18+0.27); }); } </script> 
